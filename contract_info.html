@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href ="contract_info.css">
+    </head>
+    <body>
+        <header>
+            <h1>CONTRACT INFORMATION</h1>
+        </header>
+        <main>
+            <form id="contractipform" action="page2.html" method="post">
+                <div class="form_div">
+                    <label>Contract name:</label>
+                    <input class="field_class" name="contract name" type="text" placeholder="Enter your contract name" autofocus>
+                    <h3> CLASS TYPE:</h3> <br>
+                    <input type="radio" id="public" name="fav_language" value="public">
+                    <label for="public">Public </label>
+                    <input type="radio" id="Private" name="fav_language" value="private">
+                    <label for="private">Private </label><br><br>
+                    <label>Owner name:</label>
+                    <input id="pass" class="field_class" name="password_txt" type="text" placeholder="Type the name of the owner">
+                    <h3> Contract Instance: </h3><br>
+                    <input type="radio" id="sending" name="fav_language_choice" value="sending">
+                    <label for="sending">Sending </label>
+                    <input type="radio" id="receiving" name="fav_language_choice" value="receiving">
+                    <label for="receieving">Receiving </label><br><br> 
+                    <label for ="agree"><h3>GENERATE YOUR CODE HERE: </h3></label>
+                    <button class="submit_class" onclick="serve1()" type="submit" form="login_form" onclick="">GENERATE</button>
+                    <script>
+                        function serve1(){
+                           location.href="https://beta.openai.com/playground/p/default-text-to-command";
+            
+                        }
+                    </script>
+                    <label for="textarea"> Rules of Contract: </label><br>
+                    <textarea rows="3  " cols="20" placeholder="Paste your code HERE"></textarea><br><br>
+                    <label for ="agree">I agree to the terms and conditions of the smart contract</label>
+                    <input type ="checkbox" value ="agree" required alt="REQUIRED FIELD">
+                    <button class="submit_class" onclick="serve()" type="submit" form="login_form" onclick="">Submit</button>
+                </div>
+                <div class="info_div">
+                    
+                </div>
+            </form>
+        </main>
+        <script>
+            function serve1(){
+               location.href="https://beta.openai.com/playground/p/default-text-to-command";
+
+            }
+        </script>
+       
+        <script>
+            function serve(){
+               location.href="https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js";
+
+            }
+        </script>
+        <footer>
+            <p>Hacknight <a href="#">Runtime Terrors&trade;</a></p>
+        </footer>
+    </body>
+</html>

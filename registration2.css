@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: lightgreen;
+}
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+    letter-spacing: 1.5vw;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    background: url(data:image/jpeg;base64,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) no-repeat center center;
+    background-size: cover;
+}
+.form_class {
+    width: 600px;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'system-ui';
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+.form_div {
+    text-transform: uppercase;
+}
+.form_div > label {
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+.info_div {
+    text-align: center;
+    margin-top: 20px;
+}
+.info_div {
+    letter-spacing: 1px;
+}
+.field_class {
+    width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+.submit_class {
+    border-style: none;
+    border-radius: 5px;
+    background-color: #FFE6D4;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;
+}
+footer {
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -5px -5px 10px rgb(0,0,0,0.3);
+}
+footer > p {
+    text-align: center;
+    font-family: 'system-ui';
+    letter-spacing: 3px;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

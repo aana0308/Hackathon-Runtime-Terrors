@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href ="login.css">
+    </head>
+    <body>
+        <header>
+            <h1>LOGIN PORTAL</h1>
+        </header>
+        <main>
+            <form id="loginform" action="page.html" method="post">
+                <div class="form_div">
+                    <label>Email Id</label>
+                    <input class="field_class" type= "email"  type="text" placeholder="xyz@gmail.com"> 
+                    <label>Password</label>
+                    <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Password">
+                    <button class="submit_class" onclick="serve()" type="submit" form="login_form" onclick="">Login</button>
+                </div>
+                <div class="info_div" color="white">
+                    <p>Welcome to Smart Contract generation </p>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>Hacknight: <a href="#">Runtime Terrors&trade;</a></p>
+        </footer>
+        <script>
+            function serve(){
+                location.href='page2.html';
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href ="registration2.css">
+    </head>
+    <body>
+        <header>
+            <h1>Register here</h1>
+        </header>
+        <main>
+            
+            <form id="Regisform" action="registration.html" method="post">
+                <div class="form_div">
+                    <label>Email Id</label>
+                    <input class="field_class" type = "email" name="Regis_txt" placeholder="xyz@gmail.com">
+                    <label>Password</label>
+                    <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Password">
+                    <label>Repeat password</label>
+                    <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Re-enter">
+                    <button class="submit_class" onclick="serve()" type="submit" form="login_form" onclick="">Sign up</button>
+                </div>
+                <div class="info_div" color="white">
+                    <p>Welcome to Smart Contract generation </p>
+                </div>
+            </form>
+        </main>
+        <script>
+            function serve(){
+                location.href='page.html';
+            }
+        </script>
+        <footer>
+            <p>Hacknight: <a href="#">Runtime Terrors&trade;</a></p>
+        </footer>
+    </body>
+</html>
