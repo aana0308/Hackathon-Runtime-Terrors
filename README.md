@@ -38,5 +38,9 @@ Link: https://beta.openai.com/playground/p/default-text-to-command
 <br>
 Multi layer perceptron (MLP) is a supplement of feed forward neural network. It consists of three types of layers—the input layer, output layer and hidden layer. The input layer receives the input signal to be processed. The required task such as prediction and classification is performed by the output layer. An arbitrary number of hidden layers that are placed in between the input and output layer are the true computational engine of the MLP. Similar to a feed forward network in a MLP the data flows in the forward direction from input to output layer. The neurons in the MLP are trained with the back propagation learning algorithm. MLPs are designed to approximate any continuous function and can solve problems which are not linearly separable. The major use cases of MLP are pattern classification, recognition, prediction and approximation.
 
+## Crust Link
+
+https://crustfiles.io/share/?code=1HgXzG
+
 ## Future Work
 Increase the accuracy score of both models, don't know how to do that as of now.
